@@ -1,0 +1,29 @@
+[ 
+  { "connectionId": "example1"
+  , "host": "test.domain.com"
+  , "port": 10039
+  , "username" : "wpsadmin"
+  , "password" : ""
+  , "contentHandlerPath" : "/wps/mycontenthandler"
+  , "secure" : false
+  , "libraryName" : ""
+  },
+  { "connectionId": "example2"
+  , "host": "test.domain.com"
+  , "port": 10039
+  , "username" : "wpsadmin"
+  , "password" : ""
+  , "contentHandlerPath" : "/wps/mycontenthandler"
+  , "secure" : false
+  , "libraryName" : "Sample Library"
+  },
+  { "connectionId": "example3"
+  , "host": "test.domain.com"
+  , "port": 10039
+  , "username" : "wpsadmin"
+  , "password" : ""
+  , "contentHandlerPath" : "/wps/mycontenthandler/VP1"
+  , "secure" : false
+  , "libraryName" : "Demo Library"
+  }
+]

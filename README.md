@@ -18,7 +18,7 @@ Please review the [LICENSE](https://github.com/ibm-wch/wchconvert-cli/blob/maste
 
 1. Download the wchconvert-cli-master.zip from the [wchconvert git repository](https://github.com/ibm-wch/wchconvert-cli/archive/master.zip).
 2. Unzip the wchconvert-cli-master.zip.
-3. At the command line, cd into the directory where the wchconvert package.json resides.
+3. At the command line, cd into the directory where the wchconvert package.json file resides.
 4. Run "npm install" to install wchconvert and its dependencies
 5. Run "npm link" to setup the wchconvert wrapper script and path
 6. Then follow the Getting Started instructions below, to configure and start using the wchconvert command line.

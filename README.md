@@ -16,8 +16,8 @@ Please review the [LICENSE](https://github.com/ibm-wch/wchconvert-cli/blob/maste
 
 #### Installing wchconvert
 
-1. Download the wchconvert.zip from the [wchconvert git repository](https://github.com/ibm-wch/wchconvert-cli/archive/master.zip).
-2. Unzip the wchconvert.zip.
+1. Download the wchconvert-cli-master.zip from the [wchconvert git repository](https://github.com/ibm-wch/wchconvert-cli/archive/master.zip).
+2. Unzip the wchconvert-cli-master.zip.
 3. At the command line, cd into the directory where the wchconvert package.json resides.
 4. Run "npm install" to install wchconvert and its dependencies
 5. Run "npm link" to setup the wchconvert wrapper script and path
@@ -123,7 +123,7 @@ To view **help** information you can run `wchconvert -help` at the command line.
 
 
 #### Editing the Settings.json
-  A sample settings.json is included in the wchconvert.zip.  The settings.json must exist in the working directory for wchconvert to operate successfully.
+  A sample settings.json is included in the wchconvert-cli-master.zip.  The settings.json must exist in the working directory for wchconvert to operate successfully.
 
 Here is an example entry from the settings.json:  
 
@@ -338,7 +338,7 @@ Here is an example entry from the settings.json:
   To reinstall or update wchconvert:  
   * cd to the directory where the wchconvert package.json file exists
   * run `npm uninstall`
-  * unzip the new wchconvert.zip package to different location (or delete the original files and unzip to the same location)
+  * unzip the new wchconvert-cli-master.zip package to different location (or delete the original files and unzip to the same location)
   * run `npm install`
   * run `npm link`
 

@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
 console.info('Launching wchconvertmain ......');
-require("../wchconvertmain.js");
+require('../wchconvertmain.js');

@@ -1,6 +1,6 @@
 {
   "name": "wchconvert",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "private": true,
   "bin": {
     "wchconvert": "./bin/wchconvert"
@@ -12,14 +12,15 @@
     "start": "node ./wchconvertmain.js"
   },
   "dependencies": {
-    "crypto": "0.0.3",
     "fs": "0.0.1-security",
+    "graceful-fs": "^4.1.11",
     "http": "0.0.0",
     "https": "^1.0.0",
     "jimp": "^0.2.27",
     "moment": "^2.18.1",
     "path": "^0.12.7",
     "q": "~1.4.1",
+    "valid-url": "^1.0.9",
     "winston": "^2.3.0"
   }
 }

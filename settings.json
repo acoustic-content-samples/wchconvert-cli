@@ -1,29 +1,44 @@
-[ 
-  { "connectionId": "example1"
-  , "host": "test.domain.com"
-  , "port": 10039
-  , "username" : "wpsadmin"
-  , "password" : ""
-  , "contentHandlerPath" : "/wps/mycontenthandler"
-  , "secure" : false
-  , "libraryName" : ""
-  },
-  { "connectionId": "example2"
-  , "host": "test.domain.com"
-  , "port": 10039
-  , "username" : "wpsadmin"
-  , "password" : ""
-  , "contentHandlerPath" : "/wps/mycontenthandler"
-  , "secure" : false
-  , "libraryName" : "Sample Library"
-  },
-  { "connectionId": "example3"
-  , "host": "test.domain.com"
-  , "port": 10039
-  , "username" : "wpsadmin"
-  , "password" : ""
-  , "contentHandlerPath" : "/wps/mycontenthandler/VP1"
-  , "secure" : false
-  , "libraryName" : "Demo Library"
-  }
-]
+[{
+    "connectionId": "example1",
+    "host": "test.domain.com",
+    "port": 10039,
+    "wcmUsername": "wpsadmin",
+    "wcmPassword": "",
+    "contentHandlerPath": "/wps/mycontenthandler",
+    "secure": false,
+    "filterName": "",
+    "filterType": ""
+},
+  {
+    "connectionId": "example2",
+    "host": "test.domain.com",
+    "port": 10039,
+    "wcmUsername": "wpsadmin",
+    "wcmPassword": "",
+    "contentHandlerPath": "/wps/mycontenthandler",
+    "secure": false,
+    "filterName": "Sample Library 1, Sample Library 2",
+    "filterType": "Library"
+},
+{
+    "connectionId": "example3",
+    "host": "test.domain.com",
+    "port": 10039,
+    "wcmUsername": "wpsadmin",
+    "wcmPassword": "",
+    "contentHandlerPath": "/wps/mycontenthandler",
+    "secure": false,
+    "filterName": "Home, Forms, 9cf53f27-2b7d-40d6-8746-37e84ad80f1e",
+    "filterType": "SiteArea"
+},
+{
+    "connectionId": "example4",
+    "host": "test.domain.com",
+    "port": 10039,
+    "wcmUsername": "wpsadmin",
+    "wcmPassword": "",
+    "contentHandlerPath": "/wps/mycontenthandler/VP1",
+    "secure": false,
+    "filterName": "main, 3e83511e-5c99-4700-9cf4-14ec70c5d915, 76d94245-de83-40f4-b99e-518a8c8304e8",
+    "filterType": "Folder"
+}]

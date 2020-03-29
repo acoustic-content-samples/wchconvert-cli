@@ -1,9 +1,9 @@
 # wchconvert
-## IBM Watson Content Hub Conversion Tools
+## Acoustic Content Conversion Tools
 
 
 ### Summary
-The IBM Watson Content Hub Conversion Tools provide a command line interface (CLI) based utility called wchconvert. Developers and other users can use this tool to convert IBM Web Content Manager Content into a format that can be used with IBM Watson Content Hub. The wchconvert tool downloads (pulls) content, authoring templates, file components, and image components from WCM to the local file system. The tool then analyzes the downloaded artifacts and converts them to the Watson Content Hub format. After the artifacts are converted, they are uploaded (pushed) to Watson Content Hub with the IBM Watson Content Hub Developer Tools (wchtools).
+The Acoustic Content Conversion Tools provide a command line interface (CLI) based utility called wchconvert. Developers and other users can use this tool to convert IBM Web Content Manager Content into a format that can be used with Acoustic Content (formerly Watson Content Hub). The wchconvert tool downloads (pulls) content, authoring templates, file components, and image components from WCM to the local file system. The tool then analyzes the downloaded artifacts and converts them to the Acoustic Content format. After the artifacts are converted, they are uploaded (pushed) to Acoustic Content with the Acoustic Content Developer Tools (wchtools).
 
 
 ### License and Notices
